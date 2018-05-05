@@ -38,24 +38,57 @@
                 margin: 0 auto;
             }
 
+            #contact-info {
+                width: 70%;
+            }
+
+            #main-bio,
+            #contact-info,
+            #bio-image {
+                float: left;
+            }
+
+            #bio-image {
+                width: 200px;
+                height: 200px;
+                margin-right: 20px;
+            }
+
+            #main-bio {
+                width: 70%;
+            }
         </style>
     </head>
     <body>
         <header>
             <h1>Student Bio</h1>
         </header>
+
+        <div class="container">
+
+         <section id="main-bio">
+
              <p>
                <h2>Brian Racek</h2>
-        </p>
-            <img src="http://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/istock-498886489.jpg?itok=M1UKY665&resize=200x200" alt="honeybadger">
-        <p>
+             </p>
+            <img id="bio-image" src="http://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/istock-498886489.jpg?itok=M1UKY665&resize=200x200" alt="honeybadger">
+            <p>
             Testing.. <a href="Link.com">Link</a>
-        </p>
+             </p>
+
+        </section>
+
+        <selection id="contact-info">
         <h2>Contact Info</h2>
         <ul>
             <li><strong>Emial:</strong> <a href="Email@gmail.com">Email</a></li>
             <li><strong>Github:</strong> <a href="Github">Github</a></li>
             <li><strong>Portfolio:</strong> <a href="Port">Portfolio</a></li>
         </ul>
+        
+        </selection>
+        
+        </div>
+
     </body>
 </html>
